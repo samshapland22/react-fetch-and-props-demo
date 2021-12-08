@@ -72,6 +72,7 @@ class App extends React.Component {
     }
   };
 
+  //componentDidMount is a lifecycle method that runs ONCE right after the page's initial render.
   componentDidMount = () => {
     this.fetchPets();
     this.fetchEmployees();
